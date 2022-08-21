@@ -6,13 +6,7 @@ public class Pattern24 {
                 System.out.print(j);
             }
             int k=1;
-            while(k<=i-1)
-            {
-                System.out.print("*");
-                k++;
-            }
-             k=1;
-            while(k<=i-1)
+            while(k<i*2)
             {
                 System.out.print("*");
                 k++;
