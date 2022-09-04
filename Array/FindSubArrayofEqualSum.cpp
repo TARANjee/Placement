@@ -18,12 +18,12 @@ int main()
         v.push_back(cur);
     }
 
-    for (int i = 0; i < nums.size(); i++)
+    for (int i = 0; i < v.size(); i++)
     {
-        for (int j = i + 1; j < nums.size(); j++)
+        for (int j = i + 1; j < v.size(); j++)
         {
             if (v[i] == v[j])
-               co true;
+               cout<<"true";
         }
     }
     cout << "false";
