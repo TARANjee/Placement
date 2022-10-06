@@ -27,28 +27,28 @@ while(count<total){
     //starting row
     for (int index = startingCol; index <= endingCol; index++)
     {
-       cout<<arr[startingRow][index];
+       cout<<arr[startingRow][index]<<" ";
        count++;
     }
     startingRow++;
     //ending Col
     for (int index = startingRow; index <=endingRow; index++)
     {
-       cout<<arr[index][endingCol];
+       cout<<arr[index][endingCol]<<" ";
         count++;
     }
     endingCol--;
      //ending row
     for (int index = endingCol; index >= startingCol; index--)
     {
-       cout<<arr[endingRow][index];
+       cout<<arr[endingRow][index]<<" ";
         count++;
     }
     endingRow--;
     //starting Col
-    for (int index = endingRow; index >= startingRow; index)
+    for (int index = endingRow; index >= startingRow; index--)
     {
-       cout<<arr[index][startingCol];
+       cout<<arr[index][startingCol]<<" ";
         count++;
     }
     startingCol++;
